@@ -1,0 +1,28 @@
+Buatlah program untuk membuat pola sebuah bilangan dengan kriteria seperti ini: jika input 3 = 12 jika input 13 = 52 jika input 19 = 76 jika input 31 = 124
+
+Input Format
+3
+
+Constraints
+No Constraint
+
+Output Format
+12
+
+Sample Input 0
+3
+
+Sample Output 0
+12
+
+Sample Input 1
+13
+
+Sample Output 1
+52
+
+Sample Input 2
+19
+
+Sample Output 2
+76

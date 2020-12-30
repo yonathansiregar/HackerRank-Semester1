@@ -1,0 +1,28 @@
+Pak gentong sedang sakit flu dan karena itu dia menjadi sakit kepala sehingga hanya bisa membaca suhu dalam bentuk fahrenheit, tapi dia tidak mempunyai dan terlalu miskin untuk membeli termometer, maka ia membuat alat deteksi suhu sendiri yang canggih yang bisa merubah suhu celcius menjadi fahrenheit (9/5*celcius)+32
+
+Input Format
+30
+
+Constraints
+No Constraint
+
+Output Format
+86.00
+
+Sample Input 0
+30
+
+Sample Output 0
+86.00
+
+Sample Input 1
+37
+
+Sample Output 1
+98.60
+
+Sample Input 2
+35
+
+Sample Output 2
+95.00

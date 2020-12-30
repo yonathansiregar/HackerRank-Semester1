@@ -1,0 +1,65 @@
+Adam adalah ketua kelas di salah satu SD di Malang. Sebuah tradisi di SD nya Adam adalah sebelum memasuki kelas para siswa harus berbaris dan tidak boleh masuk kelas jika belum rapi dan terurut.
+
+Sebagai ketua kelas yang sangat berkompeten maka Adam akan mengurutkan teman-temannya yang berbaris agar terurut dan rapi. Urutan berbaris teman-teman Adam adalah sesuai dengan jumlah digit nomer rumah teman-temannya secara menaik (ascending).
+
+Jadi Adam akan menjumlahkan digit tiap-tiap nomor rumah siswa lalu membandingkannya dengan jumlah digit siswa lainnya. Yang memiliki jumlah digit lebih kecil maka baris di depan dari jumlah digit yang lebih besar. Jika jumlah digitnya sama maka yang baris didepan adalah yang nomor rumahnya lebih kecil.
+
+Bantulah Adam membariskan teman-temannya agar mereka bisa masuk kelas.
+
+Input Format
+Sebuah baris terdiri dari beberapa bilangan yang dipisahkan oleh spasi
+
+Constraints
+Misalkan N adalah banyak siswa maka 1 <= N <= 100
+Misalkan ai adalah nomor rumah siswa ke-i maka 1 <= ai <= 10000
+
+Output Format
+Sebuah baris berisi N angka yang sudah terurut sesuai ketentuan. Tiap angka dipisahkan oleh spasi
+
+Sample Input 0
+100 
+35 
+23 
+41 
+500
+
+Sample Output 0
+100 
+23 
+41 
+500 
+35
+
+Explanation 0
+1+0+0 = 1
+2+3 = 5
+4+1 = 5
+5+0+0 = 5
+3+5 = 8
+
+Sample Input 1
+250 
+30 
+725 
+62 
+73 
+82 
+12
+
+Sample Output 1
+12 
+30 
+250 
+62 
+73 
+82 
+725
+
+Explanation 1
+1+2 = 3
+3+0 = 3
+2+5+0 = 7
+6+2 = 8
+7+3 = 10
+8+2 = 10
+7+2+5 = 14

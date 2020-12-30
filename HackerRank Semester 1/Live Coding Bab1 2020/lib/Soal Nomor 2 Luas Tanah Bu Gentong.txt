@@ -1,0 +1,28 @@
+Pak gentong ingin membeli sebuah tanah untuk ibunya, namun si penjual tidak memberi tahu luas tanah tersebut dan hanya memberi tahu panjang dari salah satu sisi tanah nya (tanah pak gentong berbentuk segi enam) rumus : ((3 akar 3) / 2) * s^2
+
+Input Format
+4
+
+Constraints
+No Constraint
+
+Output Format
+42.57
+
+Sample Input 0
+4
+
+Sample Output 0
+41.57
+
+Sample Input 1
+10
+
+Sample Output 1
+259.81
+
+Sample Input 2
+6
+
+Sample Output 2
+93.53

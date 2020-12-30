@@ -1,0 +1,28 @@
+Budi sedang jalan jalan di sekitar FILKOM UB. Dia lalu menemukan kalkulator yang aneh. Kalkulator yang ia temukan hanya membaca kebalikan dari input, contoh Budi ingin menginput 12, tetapi kalkulator hanya dapat membaca jika Budi menginput 21 untuk 12. Pada saat itu Budi sedang membutuhkan kalkulator, sehingga Budi akan membuat program untuk membalikkan angka.
+
+Input Format
+1 input, dengan input angka
+
+Constraints
+Tipe data yang dipakai hanya integer
+
+Output Format
+1 output yang merupakan kebalikan dari output
+
+Sample Input 0
+1234567
+
+Sample Output 0
+7654321
+
+Sample Input 1
+-123456
+
+Sample Output 1
+-654321
+
+Sample Input 2
+123454321
+
+Sample Output 2
+123454321

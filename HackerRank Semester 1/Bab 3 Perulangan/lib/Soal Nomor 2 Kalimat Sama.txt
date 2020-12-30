@@ -1,0 +1,28 @@
+Dwi anak kelas 5 sd, dia disuruh gurunya untuk membaca sebuah kata dan menentukan apakah kata itu sama jika di baca dari depan ataupun dari belakang. Bantulah dwi untuk membaca dan menentukan apakah akta itu bisa di abca dari depan dan belakang.
+
+Input Format
+sebuah kalimat/kata/angka dalam type data String
+
+Constraints
+loop condition
+
+Output Format
+Sebuah kalimat yang menentukan apakah kata itu sama atau tidak
+
+Sample Input 0
+ada
+
+Sample Output 0
+sama
+
+Sample Input 1
+halo
+
+Sample Output 1
+tidak sama
+
+Sample Input 2
+-999
+
+Sample Output 2
+sama

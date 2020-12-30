@@ -1,0 +1,42 @@
+Anebamar adalah mahasiswa yang sangat tampan, saking tampannya ada 10 wanita yang ingin jalan dengan Anebamar. Tapi Anebamar adalah orang yang setia sehingga ia hanya akan memilih 1 saja diantara 10 wanita tersebut.
+
+Untuk lebih mempermudah anggap 10 wanita ini masing-masing memiliki sebuah angka yaitu dari 0 - 9. Anebamar akan memilih sebuah angka dari 0 - 9 lalu wanita yang memiliki angka yang dipilih Anebamar akan jalan dengannya.
+
+Tetapi jika Anebamar langsung menyebutkan angka antara 0 - 9 tidak lah objektif, maka dari itu Anebamar akan menyebutkan sembarang angka antara 0 - 1010. Lalu angka tersebut dijumlahkan tiap digitnya sampai menjadi hanya 1 digit (lihat contoh untuk lebih jelas).
+
+Anebamar tidak ingin membuang waktu sehingga ia meminta anda untuk menghitung wanita dengan nomor berapa yang akan diajak jalan dengannya
+
+Input Format
+Terdiri dari sebuah baris yaitu angka yang sembarang yang dipilih Anebamar
+
+Constraints
+0 <= angka input <= 1010
+
+Output Format
+Terdiri dari sebuah baris yaitu 1 digit hasil penjumlahan angka sembarang Anebamar
+
+Sample Input 0
+457
+
+Sample Output 0
+7
+
+Explanation 0
+4 + 5 + 7 = 16
+1 + 6 = 7
+
+Sample Input 1
+8756
+
+Sample Output 1
+8
+
+Explanation 1
+8 + 7 + 5 + 6 = 26
+2 + 6 = 8
+
+Sample Input 2
+123456
+
+Sample Output 2
+3

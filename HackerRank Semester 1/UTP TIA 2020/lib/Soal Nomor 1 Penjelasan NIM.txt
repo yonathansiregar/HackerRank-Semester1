@@ -1,0 +1,47 @@
+Setiap mahasiswa mempunyai Nomor Induk Mahasiswa, tidak terkecuali Budi seorang mahasiswa Fakultas Ilmu Komputer. Budi sendiri sudah 1 semester tetapi masih tidak paham dengan arti dari Nomor Induk Mahasiswa atau biasa disebut NIM. Akhirnya dia bertanya kepada Tarjo dan dijelaskan oleh Tarjo seorang aktivis kampus bahwa NIM memiliki arti sebagai berikut : 195150200111059
+
+- 2 digit pertama (19) adalah tahun angkatan
+- 3 digit selanjutnya (515) menunjukkan fakultas
+- 2 digit selanjutnya (02) menujukkan prodi
+- 5 digit selanjutnya (00111) menunjukkan seleksi masuk
+- 3 digit terakhir (059) menunjukkan angka unik
+
+Setelah mendapatkan penjelasan tersebut Budi lantas membuat suatu program untuk memperjelas dari NIM, tetapi Budi hanya tahu bahwa kode prodi dan seleksi masuk. Kode prodi : - 02 untuk TIF
+- 03 untuk TEKKOM
+- 04 untuk SI
+- 06 untuk PTI
+- 07 untuk TI
+
+Seleksi masuk :
+- 00111 - SBMPTN
+- 01111 - SNMPTN
+- 07111 - Mandiri
+
+Jika NIM tidak mencapai 15 digit, maka program tersebut akan mencetak "Bukan sebuah NIM".
+
+Input Format
+Satu input yang berisi NIM.
+
+Constraints
+Input yang terbaca hanya 15 digit
+
+Output Format
+Satu output String dengan format sebagai berikut : "195150200111059 memiliki arti angkatan 19, seorang mahasiswa FILKOM, prodi TIF, masuk lewat jalur SBMPTN, dan memiliki nilai unik 055" atau "Bukan sebuah NIM"
+
+Sample Input 0
+195150200111034
+
+Sample Output 0
+195150200111034 memiliki arti angkatan 19, seorang mahasiswa FILKOM, prodi TIF, masuk lewat jalur SBMPTN, dan memiliki nilai unik 034
+
+Sample Input 1
+195150701111028
+
+Sample Output 1
+195150701111028 memiliki arti angkatan 19, seorang mahasiswa FILKOM, prodi TI, masuk lewat jalur SNMPTN, dan memiliki nilai unik 028
+
+Sample Input 2
+195150307111099
+
+Sample Output 2
+195150307111099 memiliki arti angkatan 19, seorang mahasiswa FILKOM, prodi TEKKOM, masuk lewat jalur Mandiri, dan memiliki nilai unik 099

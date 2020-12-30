@@ -1,0 +1,52 @@
+Dwi disuruh gurunya untuk menentukan volume balok mana yang lebih besar, tetapi dwi tidak tahu mana balok yang lebih besar jika hanya melihatnya, bantulah Dwi untuk menentukan dari ke 2 balok! manakah yang lebih besar, lebih kecil atau sama semua?
+
+Input Format
+berupa nilai 1. panjang 2. lebar 3. tinggi sebuah balok
+
+Constraints
+No Constraint
+
+Output Format
+berupa balok mana yang paling besar dan paling kecil
+
+Sample Input 0
+14
+7
+12
+16
+2
+0
+
+Sample Output 0
+Balok pertama lebih besar
+
+Explanation 0
+Seperti yang dapat kalian lihat bahwa
+14 = Panjang 7 = Lebar 12 = Tinggi
+
+Tiga angka pertama merupakan Balok pertama
+16 = Panjang 2 = Lebar 0 = Tinggi
+
+Kemudian tiga angka berikutnya merupakan Balok kedua
+
+Sample Input 1
+2
+2
+2
+2
+2
+2
+
+Sample Output 1
+Kedua Balok sama Besar
+
+Sample Input 2
+0
+0
+0
+0
+0
+0
+
+Sample Output 2
+Tidak Ada Balok

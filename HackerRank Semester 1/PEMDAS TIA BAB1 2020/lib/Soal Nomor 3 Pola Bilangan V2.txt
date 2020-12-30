@@ -1,0 +1,17 @@
+Buatlah program untuk membuat pola 2 buah bilangan dengan kriteria seperti ini: jika input 9 & 7 = 6 jika input 13 & 33 = -60 jika input 1 & 99 = -294 jika input 33 & 13 = 60
+
+Input Format
+9 7
+
+Constraints
+No Constraint
+
+Output Format
+6
+
+Sample Input 0
+9
+7
+
+Sample Output 0
+6

@@ -1,0 +1,96 @@
+Dwi di minta tolong oleh temannya untuk menghitung perkalian 2 buah matriks, tetapi dwi tidak mengerti bagaimana caranya, dwi berharap ada program yang dapat membantunya untuk menghitung perkalian 2 matriks. Jadi kalian anak IT bantu lah dwi untuk membuat program keinginannya dengan menggunakan fungsi method dan penyimpanan data array.
+
+Input Format
+baris_matriks1 [spasi] kolom_matriks1 baris_matriks2 [spasi] kolom_matriks2 isi_data_matriks1 isi_data_matriks2
+
+Constraints
+Method array 1 dimensi atau 2 dimensi ukuran matriks dinamis tergantung inputan
+
+Output Format
+hasil perkalian matriks dalam bentuk matriks
+
+Sample Input 0
+2 3
+3 3
+
+3 3 1
+4 0 3
+
+4 1 1 
+3 3 4 
+2 1 2
+
+Sample Output 0
+23 13 17 
+22 7 10 
+
+Sample Input 1
+3 4
+4 2
+
+2 4 3 4 
+4 1 0 1 
+3 4 3 0 
+
+0 3 
+1 0 
+2 2 
+4 0 
+
+Sample Output 1
+26 12 
+5 12 
+10 15 
+
+Sample Input 2
+3 4
+4 4
+
+0 2 4 3 
+1 3 0 2 
+0 3 1 3 
+
+4 1 2 0 
+1 3 2 2 
+1 0 1 1 
+4 2 2 4 
+
+Sample Output 2
+18 12 14 20 
+15 14 12 14 
+16 15 13 19 
+
+Explanation 2
+Seperti yang bisa kalian lihat
+
+3 4 //ukuran matriks1 3 x 4
+
+4 4 //ukuran matriks2 4 x 4
+
+0 2 4 3
+
+1 3 0 2
+
+0 3 1 3
+
+// data dari matriks1
+
+4 1 2 0
+
+1 3 2 2
+
+1 0 1 1
+
+4 2 2 4
+
+// data dari matriks2
+
+// tips untuk inputan data menggunakan loop
+
+18 12 14 20
+
+15 14 12 14
+
+16 15 13 19
+
+//hasil perkalian matriks 3x4 x 4x4 = 3x4
